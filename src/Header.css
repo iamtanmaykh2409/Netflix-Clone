@@ -1,0 +1,25 @@
+.header{
+    position: sticky;
+    display: flex;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    z-index: 999;
+    justify-content: space-between;
+    /* Animation */
+
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+.header_logo{
+    position:fixed;
+    object-fit: contain;
+    width: 100px;
+    left: 20px;
+}
+.header_user{
+    position: fixed;
+    object-fit: contain;
+    width: 30px;
+    right: 20px;
+}
