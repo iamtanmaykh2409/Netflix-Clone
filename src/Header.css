@@ -1,5 +1,5 @@
 .header{
-    position: sticky;
+    position: fixed;
     display: flex;
     top: 0;
     width: 100%;
@@ -22,4 +22,8 @@
     object-fit: contain;
     width: 30px;
     right: 20px;
+}
+.header_black{
+    background-color: #111;
+    height: 18px;
 }
